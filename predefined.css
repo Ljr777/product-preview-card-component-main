@@ -3,3 +3,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.flex {
+  display: flex;
+}
+.grey-color {
+  color: hsl(228, 12%, 48%);
+}
+.vr-centre {
+  justify-content: center;
+}
+.hr-centre {
+  align-items: center;
+}
+.line-through {
+  text-decoration: line-through;
+}

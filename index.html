@@ -9,30 +9,42 @@
   <title>Frontend Mentor | Product preview card component</title>
   <!-- link style sheet to html -->
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="predefined.css">
+  <link rel="stylesheet" href="./predefined.css">
   <!-- link font family -->
-  <!-- Montserrat -->
+  <!-- Montserrat Font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
-  <!-- Fraunces -->
+  <!-- Fraunces Font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <p>Preview</p>
-  <h1>Gabrielle Essence Eau De Parfum</h1>
-  <p></p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
-  Perfumer-Creator for the House of CHANEL.</p>
-  <p>$149.99</p>
-  <p>$169.99</p>
-  <button>Add to Cart</button>
-  <div class="attribution">
+<body class="flex column vr-centre hr-centre">
+  <div class="main-div row">
+    <!-- Div with product image as background -->
+    <div class="section-1 product-img flex"></div>
+    <!-- Div with text -->
+    <div class="section-2">
+      <p class="type grey-color">Perfume</p>
+      <h1 class="product-name">Gabrielle<br> Essence Eau <br>De Parfum</h1>
+      <p class="description grey-color">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+      <div class="row hr-centre">
+        <h3 class="current-price">$149.99</h3>
+        <p class="previous-price grey-color line-through">$169.99</p>
+      </div>
+      <button><img src="./images/icon-cart.svg" alt="cart-icon" class="icon-cart" />Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
+
 </body>
 
 </html>
