@@ -11,7 +11,6 @@ p {
   font-weight: 500;
 }
 .main-div {
-  width: 100%;
   max-width: 60rem;
   display: flex;
   border-radius: 0.5rem;
