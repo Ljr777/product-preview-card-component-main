@@ -10,6 +10,7 @@
   <!-- link style sheet to html -->
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./predefined.css">
+  <link rel="stylesheet" href="./queries.css">
   <!-- link font family -->
   <!-- Montserrat Font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +25,11 @@
 <body class="flex column vr-centre hr-centre">
   <div class="main-div row">
     <!-- Div with product image as background -->
-    <div class="section-1 product-img flex"></div>
+    <picture>
+      <source media="(max-width: 37.5em)" srcset="./images/image-product-mobile.jpg">
+      <img src="./images/image-product-desktop.jpg" alt="" class="perfume-img">
+    </picture>
+    <!-- <div class="section-1 product-img flex"></div> -->
     <!-- Div with text -->
     <div class="section-2">
       <p class="type grey-color">Perfume</p>
@@ -34,7 +39,7 @@
       </p>
       <div class="row hr-centre">
         <h3 class="current-price">$149.99</h3>
-        <p class="previous-price grey-color line-through">$169.99</p>
+        <del class="previous-price grey-color line-through">$169.99</del>
       </div>
       <button><img src="./images/icon-cart.svg" alt="cart-icon" class="icon-cart" />Add to Cart</button>
     </div>
@@ -44,7 +49,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
-
 </body>
 
 </html>

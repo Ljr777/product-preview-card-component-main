@@ -1,0 +1,27 @@
+/* BELOW 600px */
+@media (max-width: 37.5em) {
+  html {
+    font-size: 56.25%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-div {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+    border-radius: 0.5rem;
+  }
+}
+
+/* BELOW 375px */
+@media (max-width: 23.44em) {
+  html {
+    font-size: 50%;
+  }
+}
